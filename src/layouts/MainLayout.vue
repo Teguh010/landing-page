@@ -91,4 +91,11 @@ body {
   line-height: 24px;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-family: 'Poppins', sans-serif !important;
+    background: linear-gradient(151.17deg, #26C2B9 8.69%, #288BE7 126.06%);
+  }
+}
 </style>

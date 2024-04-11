@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import ExampleComponent from 'components/ExampleComponent.vue';
+import ExampleComponent from 'src/components/HomeComponent.vue';
 </script>
 
 <style scoped>

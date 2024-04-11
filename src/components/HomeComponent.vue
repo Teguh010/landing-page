@@ -13,12 +13,9 @@
               <div>
                 <transition-group appear enter-active-class="fadeinup ">
                   <div class="tooltip1-container" v-if="showTooltip">
-                   <div>
-                        <img
-                          style="width: 100px"
-                          src="src/assets/tooltip1.png"
-                        />
-                      </div>
+                    <div>
+                      <img style="width: 100px" src="src/assets/tooltip1.png" />
+                    </div>
                   </div>
                   <div class="main-title q-pb-md fadeinup-500">
                     최고의 실력을 가진 외국인 인재를 찾고 계신가요?
@@ -43,6 +40,7 @@
                     class="flex hero-cards-container q-py-md fadein-atonce-500"
                   >
                     <q-card class="hero-card" flat>
+                      <q-separator inset color="white" />
                       <q-card-section>
                         <div class="third-title">평균 월 120만원</div>
                         <div class="forth-title">
@@ -51,18 +49,20 @@
                       </q-card-section>
                     </q-card>
                     <q-card class="hero-card" flat>
+                      <q-separator inset color="white" />
                       <q-card-section>
-                        <div class="third-title">평균 월 120만원</div>
+                        <div class="third-title">최대 3회 인력교체</div>
                         <div class="forth-title">
-                          임금을 해당 국가를 기준으로 계산합니다.
+                          막상 채용해보니 맞지 않아도 걱정하지 마세요.
                         </div>
                       </q-card-section>
                     </q-card>
                     <q-card class="hero-card" flat>
+                      <q-separator inset color="white" />
                       <q-card-section>
-                        <div class="third-title">평균 월 120만원</div>
+                        <div class="third-title">평균 3일, 최대 10일</div>
                         <div class="forth-title">
-                          임금을 해당 국가를 기준으로 계산합니다.
+                          급하게 사람이 필요한 경우에도 빠른 채용이 가능합니다.
                         </div>
                       </q-card-section>
                     </q-card>
@@ -157,7 +157,7 @@ export default {
 }
 .hero-card {
   background: transparent !important;
-  width: 170px !important;
+  width: 180px !important;
 }
 .forth-title {
   font-weight: 900;
